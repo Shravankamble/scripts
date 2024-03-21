@@ -4,6 +4,5 @@ pip3 install kubernetes rich pyfiglet
 wget "https://raw.githubusercontent.com/Shravankamble/popc/main/popc"
 sudo chmod +x popc
 sudo mv popc /usr/local/bin
-pyfiglet -f slant popc installed
-pyfiglet -f poison demo 
+pyfiglet -f poison popc
 popc kube-system
