@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pip3 install kubernetes rich pyfiglet
-wget "https://raw.githubusercontent.com/Shravankamble/popc/main/popc"
+pip3 install kubernetes rich pyfiglet 2>/dev/null
+wget "https://raw.githubusercontent.com/Shravankamble/popc/main/popc" 2>/dev/null
 sudo chmod +x popc
 sudo mv popc /usr/local/bin
 pyfiglet -f poison popc
